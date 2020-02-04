@@ -1,0 +1,12 @@
+pragma solidity ^0.4.16;
+contract helloworld{
+    string public word="helloworld";
+    
+    function getworld()constant returns(string){
+        return(word);
+    }
+    
+    function setWorld(string _word){
+        word=_word;
+    }
+}
